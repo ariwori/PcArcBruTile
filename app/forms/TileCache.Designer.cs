@@ -49,25 +49,28 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(82, 12);
+            this.comboBox1.Location = new System.Drawing.Point(109, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(230, 20);
+            this.comboBox1.Size = new System.Drawing.Size(305, 23);
             this.comboBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Location = new System.Drawing.Point(16, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "缓存图层";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(237, 269);
+            this.button1.Location = new System.Drawing.Point(316, 289);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 2;
             this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
@@ -75,18 +78,20 @@
             // 
             // levelTextBox1
             // 
-            this.levelTextBox1.Location = new System.Drawing.Point(82, 39);
+            this.levelTextBox1.Location = new System.Drawing.Point(109, 46);
+            this.levelTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.levelTextBox1.Name = "levelTextBox1";
-            this.levelTextBox1.Size = new System.Drawing.Size(75, 21);
+            this.levelTextBox1.Size = new System.Drawing.Size(99, 25);
             this.levelTextBox1.TabIndex = 3;
             this.levelTextBox1.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 42);
+            this.label2.Location = new System.Drawing.Point(16, 52);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "缓存层级";
             // 
@@ -97,18 +102,21 @@
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Location = new System.Drawing.Point(14, 66);
+            this.groupBox1.Location = new System.Drawing.Point(19, 82);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(298, 143);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(397, 179);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "缓存范围";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(179, 114);
+            this.button2.Location = new System.Drawing.Point(239, 142);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 23);
+            this.button2.Size = new System.Drawing.Size(151, 29);
             this.button2.TabIndex = 13;
             this.button2.Text = "使用当前地图范围";
             this.button2.UseVisualStyleBackColor = true;
@@ -116,73 +124,81 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(100, 76);
+            this.textBox5.Location = new System.Drawing.Point(133, 109);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.Size = new System.Drawing.Size(132, 25);
             this.textBox5.TabIndex = 12;
             this.textBox5.Text = "2317555.123";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(198, 49);
+            this.textBox4.Location = new System.Drawing.Point(266, 72);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(94, 21);
+            this.textBox4.Size = new System.Drawing.Size(124, 25);
             this.textBox4.TabIndex = 11;
             this.textBox4.Text = "15017407.995";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(6, 49);
+            this.textBox3.Location = new System.Drawing.Point(8, 72);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(91, 21);
+            this.textBox3.Size = new System.Drawing.Size(120, 25);
             this.textBox3.TabIndex = 10;
             this.textBox3.Text = "8405457.271";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(100, 22);
+            this.textBox2.Location = new System.Drawing.Point(133, 28);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.Size = new System.Drawing.Size(132, 25);
             this.textBox2.TabIndex = 9;
             this.textBox2.Text = "6881626.751";
             // 
             // levelTextBox2
             // 
-            this.levelTextBox2.Location = new System.Drawing.Point(231, 38);
+            this.levelTextBox2.Location = new System.Drawing.Point(315, 49);
+            this.levelTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.levelTextBox2.Name = "levelTextBox2";
-            this.levelTextBox2.Size = new System.Drawing.Size(75, 21);
+            this.levelTextBox2.Size = new System.Drawing.Size(99, 25);
             this.levelTextBox2.TabIndex = 11;
             this.levelTextBox2.Text = "10";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(175, 42);
+            this.label3.Location = new System.Drawing.Point(245, 52);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.Size = new System.Drawing.Size(39, 15);
             this.label3.TabIndex = 12;
             this.label3.Text = "----";
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(14, 231);
+            this.progressBar1.Location = new System.Drawing.Point(19, 289);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(200, 23);
+            this.progressBar1.Size = new System.Drawing.Size(267, 29);
             this.progressBar1.TabIndex = 13;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(244, 231);
+            this.label4.Location = new System.Drawing.Point(325, 289);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 12);
+            this.label4.Size = new System.Drawing.Size(0, 15);
             this.label4.TabIndex = 14;
             // 
             // TileCache
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(331, 304);
+            this.ClientSize = new System.Drawing.Size(433, 338);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label3);
@@ -193,6 +209,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TileCache";
             this.Text = "下载切片";
             this.groupBox1.ResumeLayout(false);

@@ -51,7 +51,7 @@ namespace BrutileArcGIS.commands
     public sealed class AddTDTRoadCommand : AddBruTileLayerCommandBase
     {
         public AddTDTRoadCommand()
-            : base("BruTile", "&道路地图", "添加天地图地图", "TDTRoad", Resources.TDT, EnumBruTileLayer.TDTRoad)
+            : base("BruTile", "&道路地图", "添加天地图地图", "天地图地图", Resources.TDT, EnumBruTileLayer.TDTRoad)
         {
         }
     }
@@ -61,7 +61,7 @@ namespace BrutileArcGIS.commands
     public sealed class AddTDTArialCommand : AddBruTileLayerCommandBase
     {
         public AddTDTArialCommand()
-            : base("BruTile", "&影像地图", "添加天地图影像地图", "TDTArial", Resources.TDT, EnumBruTileLayer.TDTArial)
+            : base("BruTile", "&影像地图", "添加天地图影像地图", "天地图影像", Resources.TDT, EnumBruTileLayer.TDTArial)
         {
         }
     }
@@ -70,7 +70,7 @@ namespace BrutileArcGIS.commands
     public sealed class AddTDTLabelCommand : AddBruTileLayerCommandBase
     {
         public AddTDTLabelCommand()
-            : base("BruTile", "&注记地图", "添加天地图注记地图", "TDTLabel", Resources.TDT, EnumBruTileLayer.TDTLabel)
+            : base("BruTile", "&注记地图", "添加天地图注记地图", "天地图注记", Resources.TDT, EnumBruTileLayer.TDTLabel)
         {
         }
     }
